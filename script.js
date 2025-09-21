@@ -165,7 +165,7 @@ const invitationContent = `
   <div class="amplop-wrapper scroll-animate">
     <!-- Card Bank/E-Wallet -->
     <div class="amplop-card">
-      <img src="/assets/bank/dana.jpg" alt="Dana" class="amplop-icon">
+      <img src="dana.jpg" alt="Dana" class="amplop-icon">
       <p><strong>DANA</strong></p>
       <p>0896 7890 5534</p>
       <p>a.n. Angga Pratama</p>
@@ -173,7 +173,7 @@ const invitationContent = `
     </div>
 
     <div class="amplop-card">
-      <img src="/assets/bank/bri.png" alt="Bank BRI" class="amplop-icon">
+      <img src="bri.png" alt="Bank BRI" class="amplop-icon">
       <p><strong>Bank BRI</strong></p>
       <p>1470 5674 56346</p>
       <p>a.n. Angga Pratama</p>
@@ -181,7 +181,7 @@ const invitationContent = `
     </div>
 
     <div class="amplop-card">
-      <img src="/assets/bank/ovo.jpg" alt="OVO" class="amplop-icon">
+      <img src="ovo.jpg" alt="OVO" class="amplop-icon">
       <p><strong>OVO</strong></p>
       <p>0896 7890 5534</p>
       <p>a.n. Anita Cantika</p>
@@ -189,7 +189,7 @@ const invitationContent = `
     </div>
 
     <div class="amplop-card">
-      <img src="/assets/bank/bni.png" alt="Bank BNI" class="amplop-icon">
+      <img src="bni.png" alt="Bank BNI" class="amplop-icon">
       <p><strong>Bank BNI</strong></p>
       <p>1470 5674 56346</p>
       <p>a.n. Anita Cantika</p>
