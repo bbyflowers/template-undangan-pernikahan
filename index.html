@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Undangan Pernikahan Islami</title>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cinzel+Decorative&family=Cormorant+Garamond&family=Amiri&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left-side"></div>
+    <div class="right-side">
+
+      <div class="background-photo"></div>
+      <div class="header-text scroll-animate" id="headerText">
+        <h2>Pernikahan</h2>
+        <h1>ANGGA & ANITA</h1>
+        Minggu, 24 Agustus 2025
+      </div>
+
+      <div class="content scroll-animate" id="contentBox">
+        <p>Dengan penuh rasa hormat dan cinta, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dalam hari bahagia kami.</p>
+        <div class="invitee">Nama Tamu</div>
+        <button id="openBtn">Buka Undangan</button>
+      </div>
+
+      <div id="invitationDetails" class="invitation-details" style="display:none;"></div>
+    </div>
+  </div>
+
+  <button id="toggleMusicBtn" style="display:none;">
+    <img id="iconMusic" src="sound-on.png" alt="Sound On" width="24">
+  </button>
+
+  <audio id="weddingMusic" loop>
+    <source src="ARVIAN DWI SATU SHAF DIBELAKANGKU.mp3" type="audio/mpeg" />
+  </audio>
+
+    <div id="modalGaleri" onclick="closeModal()">
+    <img id="modalImg" src="" alt="Foto Besar" />
+    </div>
+
+    <!-- Bunga animasi pintu geser -->
+<div class="bunga-transisi-wrapper">
+  <img src="bungasamping-kiri.png" class="bunga-kembar kiri" alt="Bunga Kiri">
+  <img src="bungasamping-kanan.png" class="bunga-kembar kanan" alt="Bunga Kanan">
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
